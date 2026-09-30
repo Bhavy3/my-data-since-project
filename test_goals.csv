@@ -1,0 +1,13 @@
+dataset_name,goal,expected_accuracy,key_features,notes
+test_medium.csv,Job Satisfaction Prediction,0.85,education,income,experience,Baseline test
+test_salary.csv,Salary Prediction,0.90,experience,education,location,Regression task
+test_attrition.csv,Employee Attrition,0.88,age,income,job_satisfaction,Binary classification
+test_promotion.csv,Promotion Prediction,0.82,experience,education,performance,Multi-class
+test_performance.csv,Performance Rating,0.87,experience,education,projects,Ordinal classification
+test_skills.csv,Skill Level Assessment,0.84,education,experience,certifications,Multi-class
+test_workload.csv,Workload Prediction,0.86,experience,projects,team_size,Regression
+test_engagement.csv,Employee Engagement,0.83,age,tenure,satisfaction,Ordinal
+test_retention.csv,Retention Prediction,0.89,age,income,tenure,Binary
+test_career.csv,Career Path Prediction,0.81,education,experience,skills,Multi-class
+test_worklife.csv,Work-Life Balance,0.85,age,location,family_status,Ordinal
+test_leadership.csv,Leadership Potential,0.88,experience,education,projects,Binary 

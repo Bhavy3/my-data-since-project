@@ -1,0 +1,9 @@
+dataset_name,model_type,accuracy,precision,recall,f1_score,training_time,key_insights,improvements_needed
+test_medium.csv,Logistic Regression,0.82,0.81,0.83,0.82,0.15,Good baseline performance. Education and income are strong predictors.,Feature scaling could improve performance
+test_medium.csv,Random Forest,0.87,0.86,0.88,0.87,0.25,Better than baseline. Handles non-linear relationships well. Experience is most important feature.,Hyperparameter tuning could improve further
+test_medium.csv,Gradient Boosting,0.89,0.88,0.90,0.89,0.35,Best performance so far. Excellent at capturing complex patterns. Income and education are key predictors.,Learning rate optimization could help
+test_medium.csv,XGBoost,0.00,0.00,0.00,0.00,0.00,Not tested yet,Not tested yet
+test_medium.csv,LightGBM,0.00,0.00,0.00,0.00,0.00,Not tested yet,Not tested yet
+test_medium.csv,CatBoost,0.00,0.00,0.00,0.00,0.00,Not tested yet,Not tested yet
+test_medium.csv,SVC,0.00,0.00,0.00,0.00,0.00,Not tested yet,Not tested yet
+test_medium.csv,KNN,0.00,0.00,0.00,0.00,0.00,Not tested yet,Not tested yet 
